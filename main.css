@@ -22,6 +22,10 @@ body {
     padding: 0 1rem;
 }
 
+main {
+    max-width: 32rem;
+}
+
 a {
     color: inherit;
 }
