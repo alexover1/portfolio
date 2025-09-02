@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Horta';
+    src: url('fonts/horta.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    background-color: #171D36;
+    color: #f4f4f4;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+}
+
+a {
+    color: inherit;
+}
+
+header {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    cursor: default;
+}
+
+nav {
+    margin: 1em 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: #474E6B;
+    margin: 20px auto;
+}
+
+header h1 {
+    font-family: "Uncial Antiqua", system-ui;
+    font-size: 3em;
+    color: #8896D5;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.hvr-skew {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-skew:hover, .hvr-skew:focus, .hvr-skew:active {
+    -webkit-transform: skew(-10deg);
+    transform: skew(-10deg);
+}
+
+.tagline span {
+    display: inline-block;
+    transition: transform 0.2s ease, color 0.2s ease;
+    cursor: default;
+}
+
+.tagline span:hover {
+    color: #a4afdf;
+    transform: scale(1.05);
+    /* text-decoration: underline; */
+}
+
+article {
+    max-width: 32rem;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #cccccc;
+    margin-top: 40px;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer a {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+footer a:hover {
+    fill: #a4afdf;
+    transform: scale(1.1);
+    /* text-decoration: underline; */
+}
+
+footer svg {
+    width: 32px;
+    height: 32px;
+    fill: white;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+.y {
+    text-decoration: none;
+    border-bottom: .2rem solid #8896D5;
+}
+
+.y:hover {
+    border-bottom: .2rem solid #A4AFDF;
+}
+
+.y:active {
+    border-bottom: .2rem solid #f0f5fa;
+}
