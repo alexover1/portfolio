@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xavier&#39;s Computer Land</title>
+    <link>http://localhost:1717/</link>
+    <description>Recent content on Alex&#39;s Computer Land</description>
+    <generator>My Typing Fingers</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2025, Alex Overstreet</copyright>
+    <lastBuildDate>Tue, 02 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://overgroup.me/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recreating Heroes of Sokoban</title>
+      <link>https://overgroup.me/blog_0001</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://overgroup.me/blog_0001</guid>
+      <description>How I recreated Heroes of Sokoban using the Pico-8.</description>
+    </item>
+  </channel>
+</rss>
